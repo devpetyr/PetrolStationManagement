@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\superAdmin\DashboardController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,33 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+/*
+|--------------------------------------------------------------------------
+| superAdmin routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('/', [DashboardController::class, 'dashboard'])->name('superAdmin_dashboard');
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| admin routes
+|--------------------------------------------------------------------------
+*/
+
+
+
+
+
+/*
+|--------------------------------------------------------------------------
+| manager routes
+|--------------------------------------------------------------------------
+*/
