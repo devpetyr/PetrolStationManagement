@@ -19,4 +19,7 @@
 <script src="{{asset('superAdmin/js/demo.js')}}"></script>
 <script src="{{asset('superAdmin/js/styleSwitcher.js')}}"></script>
 
+<!-- Datatable -->
+<script src="{{asset('superAdmin/vendor/datatables/js/jquery.dataTables.min.js')}}"></script>
+<script src="{{asset('superAdmin/js/plugins-init/datatables.init.js')}}"></script>
 @stack('js')
