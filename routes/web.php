@@ -30,6 +30,7 @@ Route::get('dashboard', [DashboardController::class, 'dashboard'])->name('superA
 
     /*petrolStation routes*/
     Route::get('petrol-stations', [PetrolStationController::class, 'index'])->name('superAdmin_petrolStation_index');
+    Route::get('add-petrol-stations', [PetrolStationController::class, 'add_petrolstation'])->name('superAdmin_petrolStation_add');
 
 /*
 |--------------------------------------------------------------------------

@@ -11,4 +11,8 @@ class PetrolStationController extends Controller
    {
        return view('superAdmin.petrolStations.index');
    }
+   public function add_petrolstation()
+   {
+       return view('superAdmin.petrolStations.add-petrol-station');
+   }
 }

@@ -8,7 +8,7 @@
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Petrol Stations</h4>
-                        <button type="submit" class="btn btn-outline-primary add-btn">Add New PetrolStation</button>
+                        <a href="{{route('superAdmin_petrolStation_add')}}" type="submit" class="btn btn-outline-primary add-btn">Add New PetrolStation</a>
                     </div>
                     <div class="card-body">
                         <div class="table-responsive">
